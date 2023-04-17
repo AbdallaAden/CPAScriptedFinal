@@ -9,7 +9,7 @@ npm ci
 #CHAT<br>
 npm ci
 
-npm start for all three terminals 
+<b>npm start</b> for all three terminals 
 
 #EXISTING USER LOGINS<br>
 aaaden3<!-- -->@myseneca.ca<br>
