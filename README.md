@@ -1,16 +1,17 @@
 # CPAScriptedFinal
 
-#FRONT END
+#FRONT END<br>
 npm install @material-ui/core --force
 
-#BACK END
+#BACK END<br>
 npm ci
 
-CHAT
+#CHAT<br>
 npm ci
 
-aaaden3@myseneca.ca
+#EXISTING USER LOGINS<br>
+aaaden3<!-- -->@myseneca.ca<br>
 pass123
 
-darong3@myseneca.ca
+darong3<!-- -->@myseneca.ca<br>
 pass123
