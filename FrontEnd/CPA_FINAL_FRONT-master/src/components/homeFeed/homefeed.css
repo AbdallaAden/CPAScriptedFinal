@@ -1,0 +1,10 @@
+.feed {
+    flex: 7.5;
+    height: calc(100vh - 50px);
+    
+    overflow-y: auto;
+}
+
+.feedWrapper{
+    padding: 20px;
+}

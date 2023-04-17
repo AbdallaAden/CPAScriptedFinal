@@ -1,0 +1,80 @@
+.forgot{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgotWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+
+}
+
+.forgotLeft, .forgotRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.forgotLogo{
+    font-size: 50px;
+    font-weight: 800;
+    color: #ce2626;
+    margin-bottom: 10px;
+}
+
+.forgotDesc{
+    font-size: 24px;
+
+}
+
+.forgotBox{
+    height: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.forgotInput{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.verifyButton{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ce2626;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.forgotInput:focus{
+    outline: none;
+}
+
+.forgotButton{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ce2626;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+

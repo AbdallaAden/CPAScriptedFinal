@@ -1,0 +1,156 @@
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;  
+  }
+  .Title{
+    color: #000000;
+    font-weight: bolder;
+    font-size: 30px;
+    display: inline-block;
+  }
+  .SelectAll{
+    color: #000000;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    left: 14rem;      
+  }
+  .semester {    
+    color: white;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .semester-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+ /* .semester-container > div {
+    flex: .5; /*grow*/
+    
+  
+  
+  .select-all input[type="checkbox"] {
+    position: relative;
+    left: 21rem;
+    margin-bottom: .5rem;
+  }
+  
+  .course-container {
+    width: 75%;
+    margin-bottom: 20px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .course {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .course-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .course-name {
+    font-size: 20px;
+    font-weight: bold;
+    color:#da291f
+  }
+  
+  .course-code {
+    font-size: 14px;
+    color: #000000;
+  }
+  
+  .course-select {
+    margin-left: 10px;
+    color:#000000
+  }
+  
+  @media (max-width: 768px) {
+    .course-container {
+      width: 48%;
+    }
+  }
+  input[type='checkbox']:checked:before {
+    background-color: #ffffff;
+  }
+  input[type='checkbox']:checked {
+    background-color: #ffffff;
+  }
+  input[type='checkbox']:checked:after {
+    content: '\2714';
+    color:#da291f;
+  }
+  input[type='checkbox']{
+    text-align: center;
+    display:grid;
+    vertical-align:bottom;
+    width: 20px !important;
+    height: 20px !important;
+    appearance:none;
+    border-radius:10%;
+    border: 1px solid #da291f;
+    box-shadow: none;
+    font-size: 1em;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    left: 0.3rem;
+  }
+  .sub-button {
+    background-image: linear-gradient(90deg, rgba(140,59,59,1) 0%, rgba(218,41,31,1) 50%, rgba(255,165,160,1) 100%);
+    box-shadow: 0 9px 25px -5px #fb9191;
+    font-family: 'Abel', sans-serif;
+    padding: 0.5em 1.9em;
+    margin: 2.3em 0 0 0;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    transition: 0.3s linear;
+    max-width: 13rem;
+    max-height: 3rem;
+    position: fixed;
+    right: 30%;    
+    bottom:4rem;
+  }
+
+  .unsub-button {
+    background-image: linear-gradient(90deg, rgba(140,59,59,1) 0%, rgba(218,41,31,1) 50%, rgba(255,165,160,1) 100%);
+    box-shadow: 0 9px 25px -5px #fb9191;
+    font-family: 'Abel', sans-serif;
+    padding: 0.5em 1.9em;
+    margin: 2.3em 0 0 0;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    transition: 0.3s linear;
+    max-width: 13rem;
+    max-height: 3rem;
+    position: fixed;
+    right: 10%;    
+    bottom:4rem;
+  }
